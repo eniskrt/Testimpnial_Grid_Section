@@ -29,11 +29,11 @@ body{
 h3{
     font-size: 20px;
 }
-h5{
+h1{
     margin-bottom: 0;
     font-size: 15px;
 }
-h6{
+h2{
     font-size: 13px;
 }
 p{
@@ -41,6 +41,7 @@ p{
 }
 .card{
     border: none;
+    padding-bottom: 0;
 }
 .second-card{
     background-color: var(--primary-vey-dark-grayish-blue);
@@ -53,15 +54,17 @@ p{
 }
 .fifth-card{
     background-color: var(--primary-white);
+    padding-bottom: 0;
 }
-.first-card h5, .first-card h3,
-.second-card h5, .second-card h3,
-.fourth-card h5, .fourth-card h3{
+
+.first-card h1, .first-card h3,
+.second-card h1, .second-card h3,
+.fourth-card h1, .fourth-card h3{
     color: var(--primary-white);
 }
-.first-card h6, 
-.second-card h6,
-.fourth-card h6{
+.first-card h2, 
+.second-card h2,
+.fourth-card h2{
     color:hsla(0, 0%, 100%,0.5);
 }
 .first-card p,
@@ -69,12 +72,12 @@ p{
  .fourth-card p{
     color: hsla(0, 0%, 100%,0.7);
  }
- .third-card h5, .third-card h3,
- .fifth-card h5, .fifth-card h3{
+ .third-card h1, .third-card h3,
+ .fifth-card h1, .fifth-card h3{
     color: var(--primary-vey-dark-grayish-blue);
  }
- .third-card h6,
- .fifth-card h6 {
+ .third-card h2,
+ .fifth-card h2 {
     color:hsla(217, 19%, 35%,0.5);
  }
  .third-card p,
