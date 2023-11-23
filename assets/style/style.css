@@ -20,6 +20,12 @@ body{
 .card{
     padding: 1rem;
 }
+.fifth-card .card-body{
+    padding-bottom: 8px;
+}
+.header{
+    margin-bottom: 1rem;
+}
 .first-card{
     background-color: var(--primary-modorate-violet);
     background-image: url(../images/bg-pattern-quotation.svg);
@@ -35,13 +41,18 @@ h1{
 }
 h2{
     font-size: 13px;
+    margin-bottom: 0;
 }
 p{
     font-size: 13px;
 }
+
 .card{
     border: none;
     padding-bottom: 0;
+}
+.card img{
+    height: 35px;
 }
 .second-card{
     background-color: var(--primary-vey-dark-grayish-blue);
